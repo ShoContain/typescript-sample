@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "execute":"ts-node play_ground/$npm_config_file_name"
+    "execute": "ts-node play_ground/$npm_config_file_name",
+    "watch": "ts-node-dev --respawn play_ground/$npm_config_file_name"
   },
   "author": "",
   "license": "ISC",
@@ -18,6 +19,7 @@
     "eslint": "^7.22.0",
     "eslint-config-prettier": "^8.1.0",
     "prettier": "^2.2.1",
-    "ts-node": "^10.4.0"
+    "ts-node": "^10.4.0",
+    "ts-node-dev": "^1.1.8"
   }
 }
