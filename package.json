@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "execute":"ts-node $npm_config_file_name"
+    "execute":"ts-node play_ground/$npm_config_file_name"
   },
   "author": "",
   "license": "ISC",
